@@ -49,8 +49,9 @@ RUN jupyter labextension enable \
     ipycanvas \
     ipyevents
 
-COPY . $HOME/transform-21/
-WORKDIR $HOME/transform-21/
+# COPY . $HOME/transform-21/
+# WORKDIR $HOME/transform-21/
+WORKDIR $HOME
 
 COPY start.sh /sbin/start_xvfb.sh
 RUN chmod a+x /sbin/start_xvfb.sh
