@@ -1,4 +1,4 @@
-FROM  banesullivan/transform-21:tagname
+FROM  banesullivan/transform-21:latest
 MAINTAINER Bane Sullivan "bane.sullivan@kitware.com"
 SHELL ["/bin/bash", "-c"]
 
