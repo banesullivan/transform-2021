@@ -1,0 +1,28 @@
+name: t21-pyvista
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - lxml
+  - nodejs >=12.0.0
+  - jupyterlab
+  - ipywidgets
+  - ipycanvas >=0.5.0
+  - ipyevents>=0.8.0
+  - ipyvtklink
+  - pillow
+  - matplotlib
+  - scipy
+  - pandas
+  - rasterio
+  - xarray
+  - pip
+  - pip:
+    - https://github.com/pyvista/pyvista/zipball/master
+    - pyct
+    - trimesh
+    - colorcet
+    - cmocean
+    - imageio>=2.5.0
+    - imageio-ffmpeg
