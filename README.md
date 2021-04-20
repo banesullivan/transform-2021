@@ -23,6 +23,14 @@ As a last resort, there is a MyBinder set up for this demo here: [![Binder](http
 
 MyBinder will be slow and not as responsive when 3D rendering so I advise against using it.
 
+### Using pip instead
+
+For those of you that do not use anaconda, I have added a `requirements.txt` file that can be used with `pip` to isntall everything. This demo will work best on Python 3.7.
+
+```
+pip install -r requirements.txt
+```
+
 
 ## Andvanced (Docker)
 

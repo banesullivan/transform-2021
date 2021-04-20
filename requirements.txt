@@ -1,0 +1,24 @@
+lxml
+jupyterlab
+ipywidgets
+ipycanvas >=0.5.0
+ipyevents>=0.8.0
+ipyvtklink
+pillow
+matplotlib
+scipy
+pandas
+rasterio
+xarray
+https://github.com/pyvista/pyvista/zipball/master
+pyct
+trimesh
+colorcet
+cmocean
+imageio>=2.5.0
+imageio-ffmpeg
+PVGeo
+gstools
+omfvista
+netcdf4
+tqdm
