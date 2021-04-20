@@ -15,7 +15,7 @@ Links:
 This workshop assumes you have anaconda on your machine. There is a provided
 `environment.yml` file to create a conda virtual environment for installing PyVista and many other packages for the tutorials in this workshop.
 
-1. Download `environment.yml`
+1. Download entire repository
 2. Run `conda env create --file=environment.yml`
 3. Activate the environment: `conda activate t21-pyvista`
 
