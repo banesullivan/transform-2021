@@ -6,6 +6,7 @@ Links:
 
 - [Live Stream](https://www.youtube.com/watch?v=FmNmRBsEBHE)
 - [The Guide to PyVista for Geoscientists](https://banesullivan.com/pyvista/)
+- [What is a PyVista Mesh?](https://docs.pyvista.org/getting-started/what-is-a-mesh.html)
 - [PyVista Example Gallery](https://docs.pyvista.org/examples/index.html)
 - [PyVista Support Forum](https://github.com/pyvista/pyvista-support)
 
