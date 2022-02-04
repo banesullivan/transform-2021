@@ -10,7 +10,7 @@ scipy
 pandas
 rasterio
 xarray
-https://github.com/pyvista/pyvista/zipball/master
+pyvista
 pyct
 trimesh
 colorcet

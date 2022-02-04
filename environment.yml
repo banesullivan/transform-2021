@@ -10,6 +10,7 @@ dependencies:
   - ipywidgets
   - ipycanvas >=0.5.0
   - ipyevents>=0.8.0
+  - pyvista
   - ipyvtklink
   - pillow
   - matplotlib
@@ -19,7 +20,6 @@ dependencies:
   - xarray
   - pip
   - pip:
-    - https://github.com/pyvista/pyvista/zipball/master
     - pyct
     - trimesh
     - colorcet
