@@ -1,5 +1,7 @@
 # Transform 2021: Guide to PyVista
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/banesullivan/transform-2021/HEAD)
+
 Welcome the PyVista workshop for the Transform 2021 Virtual Conference!
 
 Links:
@@ -32,23 +34,16 @@ For those of you that do not use anaconda, I have added a `requirements.txt` fil
 pip install -r requirements.txt
 ```
 
+## Docker
 
-## Andvanced (Docker)
-
-There is also a docker image hosted on docker hub: https://hub.docker.com/repository/docker/banesullivan/transform-21
+There is also a docker image hosted on GitHub's container registry: https://github.com/banesullivan/transform-2021/pkgs/container/transform-2021
 
 ```
-docker pull banesullivan/transform-21:latest
+docker pull ghcr.io/banesullivan/transform-2021:latest
 ```
 
 Run the docker image:
 
 ```
-docker run -p 8878:8878 banesullivan/transform-21 jupyter lab --port=8878 --no-browser --ip=0.0.0.0 --allow-root
-```
-
-You'll also need to mount the docker image file system to share the notebooks with the image.
-
-```
-docker run -p 8878:8878 banesullivan/transform-21 jupyter lab --port=8878 --no-browser --ip=0.0.0.0 --allow-root -v t21:path/to/local/examples
+docker run -p 8888:8888 ghcr.io/banesullivan/transform-2021:latest
 ```
