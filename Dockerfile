@@ -12,3 +12,6 @@ WORKDIR $HOME
 
 COPY basic-notebooks/ $HOME/basic-notebooks
 COPY geo-notebooks/ $HOME/geo-notebooks
+COPY requirements.txt $HOME
+
+RUN pip install -r requirements.txt
